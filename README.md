@@ -1,5 +1,5 @@
 # tdd_python
-Test Driven Development with Python
+Going through "Test Driven Development with Python" by Harry Percival
 
 ## Useful TDD Concepts 
 
