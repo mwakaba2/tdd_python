@@ -1,7 +1,7 @@
 from django.test import LiveServerTestCase
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-import time
+
 
 class NewVisitorTest(LiveServerTestCase):
 
@@ -61,3 +61,4 @@ class NewVisitorTest(LiveServerTestCase):
 		# She visits that URL - her to-d list is still there.
 
 		# Satisfied, she goes back to sleep
+	
