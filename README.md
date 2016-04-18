@@ -43,3 +43,18 @@ A rule of thumb for when to remove duplication from code. When two pieces of cod
 <p>
 A place to write down things that occur to us as we're coding, so that we can finish up what we're doing and come back to them later.
 </p>
+
+### Test Isolation and Global State ###
+<p>
+Different tests shouldn't affect one another. This means we need to reset any permanent state at the end of each test. Django's test runner helps us do this by creating a test database, which it wipes clean in between each test.
+</p>
+
+### Working State to Working State (Testing Goat vs. Refactoring Cat) ###
+<p>
+Our natural urge is often to dive in and fix everything at once..but if we're not careful, we'll end up like Refactoring Cat, in a situation with loads of changes to our code and nothing working. The Testing Goat encourages us to take one step at a time, and go from working state to working state.
+</p>
+
+### YAGNI ###
+<p>
+You ain't gonna need it! Avoid the temptation to write code that you think might be useful, just because it suggests itself at the time. Chances are, you won't use it, or you won't have anticipated your future requirements correctly. 
+</p>
